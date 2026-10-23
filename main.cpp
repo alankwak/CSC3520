@@ -95,6 +95,8 @@ int main(int argc, char* argv[])
     }
 
     //clean up any data on the heap
+    delete[] monthSync;
+    delete[] rowSync;
 
     return 0;
 }
